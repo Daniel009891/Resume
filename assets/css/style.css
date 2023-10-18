@@ -59,8 +59,9 @@
     background-color: #e74c3c;
 }
 
-
-
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
 
 body {
     font-family: Roboto, sans-serif;
